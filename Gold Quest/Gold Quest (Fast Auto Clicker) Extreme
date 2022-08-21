@@ -1,4 +1,4 @@
-let nad = true
+nlet nad = true
 let nad2 = true
 let origST = setTimeout;
 
@@ -37,13 +37,8 @@ const data = null;
 
 
 let qid = ""
-function get(dat,question) {
-    for (let e of dat.questions) {
-        if (e.question === question) {
-            return e.correctAnswers[0]
-        }
-        
-    }
+function get() {
+    return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner.stateNode.state.question.correctAnswers[0]
 }
 let cor = "";
 
@@ -73,7 +68,7 @@ setInterval(()=>{
 setInterval(()=>{
 	if (document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase > div.styles__questionContainer___3u_c9-camelCase > div")) {
 		Array.from(document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase > div.styles__answersHolder___3LYNs-camelCase").children).forEach(c=>{
-      if (c.innerText == get(bdata,document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase > div.styles__questionContainer___3u_c9-camelCase > div").innerText)) {c.firstChild.click()}
+      if (c.innerText == get()) {c.firstChild.click()}
     })
 	}
   
