@@ -1,4 +1,4 @@
-nlet nad = true
+let nad = true
 let nad2 = true
 let origST = setTimeout;
 
