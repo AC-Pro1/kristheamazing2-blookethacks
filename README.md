@@ -8,5 +8,4 @@ i am just updating the hacks to see if they work
 these hacks that "I" will make are different types of hacks
 the recently new hack I made on jHAX7's one is OP towers, see peoples blooks, flood game and end game
 make sure to go and check out jHAX7 and kristheamazing2 blooket hacks
-THE ULTIMATE HACK IS STILL BEING MADE!
-be ready...
+Please check out this https://github.com/kristheamazing2/Kristheamazing2-main-all-hacks   I have put every single hack of mine together and put them in this website.
